@@ -1,0 +1,29 @@
+.sliders {
+  width: 800px;
+  margin: 200px auto;
+}
+
+.slider_container {
+  position: relative;
+  height: 600px;
+}
+
+.slider_img {
+  width: 100%;
+  position: absolute;
+
+  transition: 1s;
+}
+
+.slider_img img {
+  width: 100%;
+}
+
+.sliders button {
+  padding: 10px;
+}
+
+.sliders button.active {
+  background-color: black;
+  color: white;
+}

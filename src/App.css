@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 12px;
+}
+
+.app__container {
+  width: 1200px;
+  background-color: antiquewhite;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.lnb ul {
+  display: flex;
+  gap: 100px;
+}
+footer {
+  text-align: center;
+  padding: 50px;
+}
+footer address {
+  font-style: normal;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin: 50px;
+}
+
+/* active 자동 인식 
+a.active,
+NavLink.active {
+  background-color: antiquewhite;
+  color: red;
+}
+*/
+
+a.select,
+NavLink.select,
+.active {
+  background-color: antiquewhite;
+  color: red;
+}
+
+.boardTable {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 300px;
+  gap: 20px;
+}
+
+.boardTable p {
+  margin-bottom: 20px;
+}
+
+.board {
+  width: 1000px;
+  margin: auto;
+}
+
+section[id] {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section[id]:nth-of-type(2n) {
+  background-color: lavender;
+}
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layout {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(5, 300px);
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}

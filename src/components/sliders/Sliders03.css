@@ -1,0 +1,26 @@
+.sliders {
+  width: 800px;
+  margin: 200px auto;
+}
+
+.sliders button {
+  padding: 10px;
+}
+
+.sliders button.active {
+  background-color: black;
+  color: white;
+}
+
+.left_slider {
+  display: flex;
+  width: 20000px;
+  transition: 1s;
+}
+
+.left_slider .left_slider_img {
+  width: 500px;
+}
+.left_slider img {
+  width: 100%;
+}

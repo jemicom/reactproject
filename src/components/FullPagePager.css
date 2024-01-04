@@ -1,0 +1,28 @@
+.indecator_container {
+  position: fixed;
+  right: 50px;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  z-index: 99;
+}
+.indecator {
+  margin-top: -300px;
+}
+.indecator_container a {
+  display: block;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: gray;
+  margin: 10px;
+}
+.indecator_container li.active a {
+  background-color: red;
+}
+/* .indecator_container li:hover a::after {
+  content: `${var(--char)}`;
+} */
